@@ -1,5 +1,6 @@
 treatment_id,treatment_name,control_treatment_id,treatment_description
 Untreated,Untreated,Untreated,No special treatment
+CisPt-5uM,5uM Cisplatin,Untreated,5uM of cisplatinum. A DNA cross-linking and chemotherapeutic agent.
 CisPt-25uM,25uM Cisplatin,Untreated,25uM of cisplatinum. A DNA cross-linking and chemotherapeutic agent.
 CisPt-50uM,50uM Cisplatin,Untreated,50uM of cisplatinum. A DNA cross-linking and chemotherapeutic agent.
 CisPt-75uM,75uM Cisplatin,Untreated,75uM of cisplatinum. A DNA cross-linking and chemotherapeutic agent.
