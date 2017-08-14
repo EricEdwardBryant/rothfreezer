@@ -48,6 +48,7 @@ fields:
 
 column_types:
   plate_control: logical
+  excluded: logical
 
 schema:
   addresses: 

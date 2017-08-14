@@ -9,6 +9,8 @@ MATalpha-CTF4-validation1-96,Original CTF4 validation collection cherry-picked f
 "MATalpha-CTF4,RAD5-96-hb","Collection of CTF4, or RAD5 SDL MATalpha KanMX deletion strains. Also includes strains that have many interactions with this set that were not identified as SDL. This is the 96 density key used for the original cherry-picking into 96 well plates."
 "MATa-cispt-384-hb","Collection of BY MATa KanMX deletion strains for cisplatin dE-MAP, cherry-picked by Eric Bryant and Francois Dossin"
 "MATa-cispt-96-hb","Collection of BY MATa KanMX deletion strains for cisplatin dE-MAP, cherry-picked by Eric Bryant and Francois Dossin"
+"MATa-cispt-384-hb-V2","Version 2 of MATa KanMX deletion collection for cisplatin dE-MAP. 60+ strains replaced after failure to validate by barcode validation."
+"MATa-cispt-96-hb-V2","Version 2 of MATa KanMX deletion collection for cisplatin dE-MAP. 60+ strains replaced after failure to validate by barcode validation."
 MATa-pWJ1781-96,"A 96 well plate of MATa BY4741 his3::KanMX with pWJ1781"
 MATa-RAD5-variants-1-96,"6 variants of RAD5 in GAL1p inducible overexpression vector transformed into 11 different strains"
 MATa-RAD5-variants-1-384,"6 variants of RAD5 in GAL1p inducible overexpression vector transformed into 11 different strains. Made by combining MATa-RAD5-variants-1-96 in position 1 and MATa-pWJ1781-96 in positions 2,3,4"
