@@ -132,3 +132,6 @@ J1841,rad28,rad28::NatMX in SGA Query Background,S000002437-NatMX,S000002437,MAT
 J1842,pph3,pph3::NatMX in SGA Query Background,S000002482-NatMX,S000002482,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 pph3::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
 J1843,mlh2,mlh2::NatMX in SGA Query Background,S000004025-NatMX,S000004025,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 mlh2::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
 J1844,rmi1,rmi1::NatMX in SGA Query Background,S000005945-NatMX,S000005945,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 rmi1::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
+J1845,hpc2,hpc2::NatMX in SGA Query Background,S000000419-NatMX,S000000419,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 hpc2::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
+J1846,erg2,erg2::NatMX in SGA Query Background,S000004815-NatMX,S000004815,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 erg2::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
+J1847,mre11,mre11::NatMX in SGA Query Background,S000004837-NatMX,S000004837,MATalpha can1∆::STE2pr-Sp_his5 lyp1∆ his3∆1 leu2∆0 ura3∆0 met15∆0 mre11::NatMX,alpha,BY (S288C),<SGA-Query-NAT>,R1458
