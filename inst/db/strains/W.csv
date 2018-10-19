@@ -1,5 +1,5 @@
 strain_id,strain_name,strain_description,parents,background,mat,genotype,allele_id,gene_id,freezer,shelf,rack,pullout,insert,row,column,owner,date,publications,tags,strain_notes,warnings,filemaker
-W4314-2C,rDNA recombination assay,ADE2-CAN1 inserted into rDNA array to measure frequency of rDNA recombination. From Kurt Runge.,W4141-44A x W2638-18C,W303,alpha,trp1-1 LYS2 RAD5 rDNA::ADE2-CAN1,,,-80C #2,6,1,3,1,2,5,Robert J.D. Reid,2003-09-30,,,"This strain is the result of crossing the original assay strain (CCFY100 address 433418 with no associated genotype notes) to a tri2∆ (J968) to generate W3991, from which no strains were recorded in the database. W3991-11C, which was just described as MATa in Bob's notes for the W strains book, was crossed to a top1::HIS3 strain (W1956-7C) whose parent diploid contained an sgs1::URA3 allele to generage W4141. Again, no W4141 strains are recorded in the database, but a W4141-44A segregant (MATa top1::HIS3 rDNA::ADE2-CAN1) was then crossed to W2638-18C (MATalpha rad5::URA3). This strain has been confirmed to be his, and ura, but be aware that parental strains were top1, so this strain should probably be backcrossed a few times and the ""tri2"" = UAF30 locus should be checked, or the original CCFY100 should be backcrossed.",,TRUE
+W4314-2C,rDNA::ADE2-CAN1 recombination assay,ADE2-CAN1 inserted into rDNA array to measure frequency of rDNA recombination. From Kurt Runge.,W4141-44A x W2638-18C,W303,alpha,trp1-1 LYS2 RAD5 rDNA::ADE2-CAN1,,,-80C #2,6,1,3,1,2,5,Robert J.D. Reid,2003-09-30,,,"This strain is the result of crossing the original assay strain (CCFY100 address 433418 with no associated genotype notes) to a tri2∆ (J968) to generate W3991, from which no strains were recorded in the database. W3991-11C, which was just described as MATa in Bob's notes for the W strains book, was crossed to a top1::HIS3 strain (W1956-7C) whose parent diploid contained an sgs1::URA3 allele to generage W4141. Again, no W4141 strains are recorded in the database, but a W4141-44A segregant (MATa top1::HIS3 rDNA::ADE2-CAN1) was then crossed to W2638-18C (MATalpha rad5::URA3). This strain has been confirmed to be his, and ura, but be aware that parental strains were top1, so this strain should probably be backcrossed a few times and the ""tri2"" = UAF30 locus should be checked, or the original CCFY100 should be backcrossed.",,TRUE
 W9100-2D,WT alpha lys2,Wildtype W303 with RAD5 and large CUP1 array (i.e. fixed rad5-G535R and resistant to 800uM copper),W7981-2A x W1588-4C,W303,alpha,"ADE2 leu2-3,112 his3-11,15 ura3-1 TRP1 lys2∆ RAD5 MET15",-,-,-80C #2,8,3,4,2,1,1,Sergio,2010-01-04,-,WT,This strain has been tested and it grows fine when Top1TA is overexpressed. 800 µM Cu2+ resistant. Very long CUP1 array (~ 11 copies) checked by Southern blot.,,TRUE
 W9100-17D,WT a lys2,Wildtype W303 with RAD5 and large CUP1 array (i.e. fixed rad5-G535R and resistant to 800uM copper),W7981-2A x W1588-4C,W303,a,"ADE2 leu2-3,112 his3-11,15 ura3-1 TRP1 lys2∆ RAD5 MET15",-,-,-80C #2,8,3,4,2,1,4,Sergio,2010-01-04,-,WT,This strain has been tested and it grows fine when Top1TA is overexpressed. 800 µM Cu2+ resistant.,,TRUE
 W9100-11B,WT a ade2 lys2,Wildtype W303 with RAD5 and large CUP1 array (i.e. fixed rad5-G535R and resistant to 800uM copper),W7981-2A x W1588-4C,W303,a,"ade2-1 leu2-3,112 his3-11,15 ura3-1 TRP1 lys2∆ RAD5 MET15",-,-,-80C #2,8,3,4,2,1,2,Sergio,2010-02-26,-,WT,This strain has been tested and it grows fine when Top1TA is overexpressed. 800 µM Cu2+ resistant. Very long CUP1 array (~ 11 copies) checked by Southern blot.,,TRUE
@@ -102,7 +102,7 @@ W11244,,,,,,,,,,,,,,,,,,,,,,
 W11245,,,,,,,,,,,,,,,,,,,,,,
 W11246,,,,,,,,,,,,,,,,,,,,,,
 W11247,,,,,,,,,,,,,,,,,,,,,,
-W11248,,,,,,,,,,,,,,,,,,,,,,
+W11248-5B,,,W11243-4B x J1807,,a,MATa bar1::NatMX ADE2 TRP1 LYS2 RAD5,,,6,4,1,1,2,2,,,,,,,,
 W11249,,,,,,,,,,,,,,,,,,,,,,
 W11250,,,,,,,,,,,,,,,,,,,,,,
 W11251,,,,,,,,,,,,,,,,,,,,,,
@@ -114,9 +114,10 @@ W11256,,,,,,,,,,,,,,,,,,,,,,
 W11257,,,,,,,,,,,,,,,,,,,,,,
 W11258,,,,,,,,,,,,,,,,,,,,,,
 W11259,,,,,,,,,,,,,,,,,,,,,,
-W11260,,,,,,,,,,,,,,,,,,,,,,
+W11260,,,,,,MATa sgs1∆::KanMX  bar1∆::NatMX TRP1 lys,,,-80C#2,6,3,4,2,7,8,Bob,,,,,,
 W11261,,,,,,,,,,,,,,,,,,,,,,
-W11262,,,,,,,,,,,,,,,,,,,,,,
+W11262-9B,rDNA::ADE2-CAN1 pol30-RR::NatMX,rDNA::ADE2-CAN1 pol30-RR::NatMX,W4314-2C x W11230-1A,W303,a,"leu2-3,112 his3-11,15 ura3-1 trp1 LYS2 RAD5 MET15 rDNA::ADE2-CAN1 pol30-RR::NatMX",,,-80C #2,6,4,1,3,1,7,Eric Bryant,2018-07-17,,Project-RAD5-OE,,,FALSE
+W11262-22C,rDNA::ADE2-CAN1 pol30-RR::NatMX,rDNA::ADE2-CAN1 pol30-RR::NatMX,W4314-2C x W11230-1A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 trp1 LYS2 RAD5 MET15 rDNA::ADE2-CAN1 pol30-RR::NatMX",,,-80C #2,6,4,1,3,1,8,Eric Bryant,2018-07-17,,Project-RAD5-OE,,,FALSE
 W11263,,,,,,,,,,,,,,,,,,,,,,
 W11264,,,,,,,,,,,,,,,,,,,,,,
 W11265,,,,,,,,,,,,,,,,,,,,,,
@@ -301,8 +302,24 @@ W11405,,,,,,,,,,,,,,,,,,,,,,
 W11406,,,,,,,,,,,,,,,,,,,,,,
 W11407,,,,,,,,,,,,,,,,,,,,,,
 W11408,,,,,,,,,,,,,,,,,,,,,,
-W11409-1D,rad18::HphMX,rad18::HphMX,W11172-1B x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ rad18::HphMX",,,-80C #2,8,4,3,4,3,7,Eric Bryant,2018-05-31,,Project-RAD5-OE,In validation,,FALSE
-W11409-1B,sgs1::KanMX rad18::HphMX,,W11172-1B x W11366-3A,W303,a,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX rad18::HphMX",,,-80C #2,8,4,3,4,3,8,Eric Bryant,2018-05-31,,Project-RAD5-OE,In validation,,FALSE
-W11409-4D,sgs1::KanMX rad18::HphMX,sgs1::KanMX rad18::HphMX,W11172-1B x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX rad18::HphMX",,,-80C #2,8,4,3,4,4,1,Eric Bryant,2018-05-31,,Project-RAD5-OE,In validation,,FALSE
-W11410-8C,sgs1::KanMX ubc13::KanMX,sgs1::KanMX ubc13::KanMX,W11177-8D x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX ubc13::KanMX",,,-80C #2,8,4,3,4,4,2,Eric Bryant,2018-05-31,,Project-RAD5-OE,In validation,,FALSE
-W11410-2A,ubc13::KanMX mms2::NatMX,,,,,,,,,,,,,,,,,,,,,
+W11409-1D,rad18,rad18::HphMX,W11172-1B x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ rad18::HphMX",,,-80C #2,8,4,3,4,3,7,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,FALSE
+W11409-1B,sgs1 rad18,sgs1::KanMX rad18::HphMX,W11172-1B x W11366-3A,W303,a,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX rad18::HphMX",,,-80C #2,8,4,3,4,3,8,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,FALSE
+W11409-4D,sgs1 rad18,sgs1::KanMX rad18::HphMX,W11172-1B x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX rad18::HphMX",,,-80C #2,8,4,3,4,4,1,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,FALSE
+W11410-2A,ubc13 mms2,ubc13::KanMX mms2::NatMX,W11177-8D x W11366-3A,W303,a,"leu2-3,112 his3-11,15 ura3-1 lys2∆ ubc13::KanMX mms2::NatMX",,,-80C #2,6,4,1,3,2,1,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,FALSE
+W11410-2C,mms2,mms2::NatMX,W11177-8D x W11366-3A,W303,a,"leu2-3,112 his3-11,15 ura3-1 lys2∆ mms2::NatMX",,,-80C #2,6,4,1,3,2,2,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,FALSE
+W11410-4B,ubc13 mms2,ubc13::KanMX mms2::NatMX,W11177-8D x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ ubc13::KanMX mms2::NatMX",,,-80C #2,6,4,1,3,2,3,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,
+W11410-4C,sgs1 ubc13 mms2,sgs1::KanMX ubc13::KanMX mms2::NatMX,W11177-8D x W11366-3A,W303,a,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX ubc13::KanMX mms2::NatMX",,,-80C #2,6,4,1,3,2,4,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,
+W11410-7B,mms2,mms2::NatMX,W11177-8D x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ mms2::NatMX",,,-80C #2,6,4,1,3,2,5,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,
+W11410-13D,sgs1 ubc13 mms2,sgs1::KanMX ubc13::KanMX mms2::NatMX,W11177-8D x W11366-3A,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 lys2∆ sgs1::KanMX ubc13::KanMX mms2::NatMX",,,-80C #2,6,4,1,3,2,6,Eric Bryant,2018-05-31,,Project-RAD5-OE,,,
+W11411,,,,,,,,,,,,,,,,,,,,,,
+W11412,,,,,,,,,,,,,,,,,,,,,,
+W11413,,,,,,,,,,,,,,,,,,,,,,
+W11414,,,,,,,,,,,,,,,,,,,,,,
+W11415,,,,,,,,,,,,,,,,,,,,,,
+W11416,,,,,,,,,,,,,,,,,,,,,,
+W11417,,,,,,,,,,,,,,,,,,,,,,
+W11418,,,,,,,,,,,,,,,,,,,,,,
+W11419,,,,,,,,,,,,,,,,,,,,,,
+W11420,,,,,,,,,,,,,,,,,,,,,,
+W11421-44B,rDNA::ADE2-CAN1 rad18,rDNA::ADE2-CAN1 rad18::HphMX,W4314-2C x W11172-1B,W303,alpha,"leu2-3,112 his3-11,15 ura3-1 trp1 rDNA::ADE2-CAN1 rad18::HphMX",,,-80C #2,6,4,1,3,2,7,Eric Bryant,2018-07-17,,Project-RAD5-OE,,,FALSE
+W11422-30C,rDNA::ADE2-CAN1 ubc13 mms2,rDNA::ADE2-CAN1 ubc13::KanMX mms2::NatMX,W4314-2C x W11410-2A,W303,a,"leu2-3,112 his3-11,15 ura3-1 trp1 rDNA::ADE2-CAN1 ubc13::KanMX mms2::NatMX",,,-80C #2,6,4,1,3,2,8,Eric Bryant,2018-07-17,,Project-RAD5-OE,,,FALSE

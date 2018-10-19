@@ -15,7 +15,7 @@ pWJ1893,CUP1p-PKH2,,CUP1p,ADH2t,,,PKH2,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1512,,-8
 pWJ1894,Vector for independent promoter and ORF cloning,Z-NruI-A-HpaI-B,-,ADH2t,,,-,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1512,,-80C #2,6,3,4,3,1,2,Robert J.D. Reid,2011-02-04,,,,TRUE
 pWJ1895,CUP1p-SMT3,,CUP1p,ADH2t,,,SMT3,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1512,,-80C #2,7,2,3,1,7,8,John Dittmar,2011-01-25,,,,TRUE
 pWJ1896,GAL1p-BUB1,,GAL1p,ADH2t,S000003420,S000003420,BUB1,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1781,,-80C #2,7,2,3,1,8,1,John Dittmar,2011-01-31,,Transformed with A/B homology into pWJ1781 cut with Hpa1,viable,TRUE
-pWJ1936,CUP1p-DMC1,,CUP1p,,S000000981,S000000981,DMC1,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1512,,-80C #2,8,1,3,3,8,6,Ivana Sunjevaric,2011-06-14,,DMC1 cDNA transformed with A/B homology into pWJ1512 cut with Hpa1,viable,TRUE
+pWJ1936,CUP1p-DMC1,DMC1 cDNA transformed with A/B homology into pWJ1512 cut with Hpa1,CUP1p,ADH2t,S000000981,S000000981,DMC1,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1512,DH10b,-80C #2,8,1,3,3,8,6,Ivana Sunjevaric,2011-06-14,,DMC1 cDNA transformed with A/B homology into pWJ1512 cut with Hpa1,viable,TRUE
 pWJ2073,GAL1p-CAC2,,GAL1p,ADH2t,S000004570,S000004570,CAC2,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1781,DH10b,-80C #2,8,4,2,3,1,1,Eric Bryant,2012-07-20,,Transformed with A/B homology into pWJ1781 cut with Hpa1,viable,TRUE
 pWJ2074,GAL1p-CDC7,,GAL1p,ADH2t,S000002175,S000002175,CDC7,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1781,DH10b,-80C #2,8,4,2,3,1,2,Eric Bryant,2012-07-20,,Transformed with A/B homology into pWJ1781 cut with Hpa1,viable,TRUE
 pWJ2075,GAL1p-ECM38,,GAL1p,ADH2t,S000004290,S000004290,ECM38,LEU2,CEN6/ARS4,AmpR,f1/pBR322,pWJ1781,DH10b,-80C #2,8,4,2,3,1,3,Eric Bryant,2012-07-24,,Transformed with A/B homology into pWJ1781 cut with Hpa1,viable,TRUE
