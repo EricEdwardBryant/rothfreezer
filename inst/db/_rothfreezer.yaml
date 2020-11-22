@@ -1,7 +1,7 @@
 name: rothfreezer.sqlite
 
 # Comment/Uncomment updates then run:
-#     easydb::db_update('path/to/_rothfreezer.yaml')
+#     easydb::db_update('inst/db/_rothfreezer.yaml')
 update:
   # ---- From SGD ----
   # genes:                  'rothfreezer::update_genes()'
