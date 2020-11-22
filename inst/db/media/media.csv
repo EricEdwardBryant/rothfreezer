@@ -7,3 +7,5 @@ SCD-Leu,SC -Leu,Synthetic complete without leucine with 2% dextrose
 SCD+G418+NAT,SC +G418 +NAT,"Synthetic complete with 2% dextrose, with 200 mg/L G418 and 100 mg/L clonNAT"
 YPD,"Yeast extract, Peptone Dextrose","Rich media, yeast extract, peptone, and 2% dextrose"
 YMD,Yeast extract from Malt Dextrose,"Rich media, yeast malt extract with 2% dextrose"
+SCD-LUH,SC -Leu -Ura -His,Synthetic complete without leucine uracil and histidine with 2% dextrose
+SCD-LUA,SC -Leu -Ura -Ade,Synthetic complete without leucine uracil and adenine with 2% dextrose

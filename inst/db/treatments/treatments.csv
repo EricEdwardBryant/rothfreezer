@@ -35,3 +35,20 @@ U18666A-0,0ug/mL U18666A,U18666A-0,3 beta-[2-(diethylamino)ethoxy]androst-5-en-1
 U18666A-3,3ug/mL U18666A,U18666A-0,3 beta-[2-(diethylamino)ethoxy]androst-5-en-17-one. 3 ug/mL
 U18666A-40,40ug/mL U18666A,U18666A-0,3 beta-[2-(diethylamino)ethoxy]androst-5-en-17-one. 40 ug/mL
 Cu-100,100 uM Copper,Untreated,100 uM Copper for inducing expression from CUP1 promoter
+Cu-50,50 uM Copper,Untreated,50 uM Copper for inducing expression from CUP1 promoter
+Cu-25,25 uM Copper,Untreated,25 uM Copper for inducing expression from CUP1 promoter
+Rap-02,2 nM rapamycin,Untreated,2 nM rapamycin to inhibit TOR pathway
+Rap-04,4 nM rapamycin,Untreated,4 nM rapamycin to inhibit TOR pathway
+Rap-10,10 nM rapamycin,Untreated,10 nM rapamycin to inhibit TOR pathway
+Rap-16,16 nM rapamycin,Untreated,16 nM rapamycin to inhibit TOR pathway
+MMS-005,0.005% MMS,Untreated,0.005% methyl-methanesulfonate DNA alkylating agent
+MMS-010,0.010% MMS,Untreated,0.010% methyl-methanesulfonate DNA alkylating agent
+MMS-020,0.020% MMS,Untreated,0.020% methyl-methanesulfonate DNA alkylating agent
+MMS-025,0.025% MMS,Untreated,0.025% methyl-methanesulfonate DNA alkylating agent
+CPT-01,1 ug/ml CPT,Untreated,1 mg/ml camptothecin DNA topoisomerase I poison
+CPT-04,4 ug/ml CPT,Untreated,4 mg/ml camptothecin DNA topoisomerase I poison
+CPT-05,5 ug/ml CPT,Untreated,5 mg/ml camptothecin DNA topoisomerase I poison
+CPT-10,10 ug/ml CPT,Untreated,10 mg/ml camptothecin DNA topoisomerase I poison
+HU-20,20 mM HU,Untreated,20 mM Hydroxyurea inhibits RNR
+HU-50,50 mM HU,Untreated,50 mM Hydroxyurea inhibits RNR
+HU-100,100 mM HU,Untreated,100 mM Hydroxyurea inhibits RNR
