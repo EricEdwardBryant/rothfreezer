@@ -20,15 +20,24 @@ src_rothfreezer <- function() {
   # Read configuration file
   cnf <- system.file('db/_rothfreezer.yaml', package = 'rothfreezer') %>% db_config()
   
-  # Build the database if it does not exist
+  # Build the db if it does not exist
   if (!file.exists(cnf$db)) suppressWarnings(db_build(cnf))
   
-  # Connect to the database
-  src <- src_sqlite(cnf$db) %>% add_class('src_rothfreezer')
-  src$cnf <- cnf
+  # Connect to the db. Mimics functionality of deprecated dbplyr::src_sqlite
+  con <- DBI::dbConnect(RSQLite::SQLite(), cnf$db)
+  RSQLite::initExtension(con)
+  src <- list(con = con, disco = auto_disconnector(con), cnf = cnf)
+  class(src) <-
+    c("src_rothfreezer", "src_SQLiteConnection", "src_dbi", "src_sql", "src")
+
   return(src)
 }
 
+# Inspired by dbplyr:::db_disconnector
+auto_disconnector <- function(con) {
+  reg.finalizer(environment(), function(...) DBI::dbDisconnect(con))
+  environment()
+}
 
 #---- src_rothscreen methods --------------------------------------------------
 #' @export
