@@ -22,7 +22,8 @@ Suggests:
     knitr,
     devtools,
     DT,
-    data.table
+    data.table,
+    roxygen2
 Remotes:
     EricEdwardBryant/easydb
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
